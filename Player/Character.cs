@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace RPGGame
 {
-	internal class Program
+	internal class Character:AbstractPlayer
 	{
-		static void Main (string[] args)
-		{
 
-
-		}
 	}
 }

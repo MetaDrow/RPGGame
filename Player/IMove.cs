@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace RPGGame
 {
-	internal class Program
+	internal interface IMove
 	{
-		static void Main (string[] args)
-		{
-
-
-		}
+		 int x { get; set; }
+		 int y { get; set; }
+		 int  Move (int x, int y);
+		 
 	}
 }
