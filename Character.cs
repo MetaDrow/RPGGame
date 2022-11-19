@@ -6,16 +6,18 @@ using System.Threading.Tasks;
 
 namespace RPGGame
 {
-	abstract class AbstractPlayer
+	internal class Character
 	{
-		public int x  { get; set; }
-		public int y { get; set; }
-		public int Move (int x,int y)
-		{
-			int position = 0;
 
-			return position;
+		
+		public int x { get; set; }
+		public int y { get; set; }
+
+		public void CheckCharacter(int x, int y)
+		{
+			Console.SetCursorPosition(x, y);
 		}
+
 
 	}
 }

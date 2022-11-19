@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace RPGGame
 {
-	internal class Character:AbstractPlayer
+	internal class Map
 	{
+		//read map method
 
+		// render
 	}
 }

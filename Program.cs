@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+
 
 namespace RPGGame
 {
@@ -11,7 +9,14 @@ namespace RPGGame
 		static void Main (string[] args)
 		{
 
+			//start program 
+			int x = 5; int y = 5;
+			Character player = new Character();
+			player.CheckCharacter(x,y);
 
+
+
+			Console.ReadLine();
 		}
 	}
 }
