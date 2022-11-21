@@ -5,15 +5,14 @@ namespace RPGGame
 {
 	internal class Render
 	{
-		//берем объект
-		//помещаем в лист
-		//считываем его
-		//отрисовываем 
-		public void Rend(object o)
+		
+		public void Renderer(string[] args)
 		{
-
+			for(int i =0;i< args.Length; i++)
+			{
+				var a = args[i];
+				Console.WriteLine(a);
+			}
 		}
-
-		//render method
 	}
 }

@@ -9,14 +9,19 @@ namespace RPGGame
 	internal class Character
 	{
 
-		
-		public int x { get; set; }
-		public int y { get; set; }
-
-		public void CheckCharacter(int x, int y)
+		private string[] _characterFace =
 		{
-			Console.SetCursorPosition(x, y);
-		}
+			"  @  ",
+			"┌─┼─┐",
+			" ┌┴┐ ",
+			" │ │ ",
+
+		};
+
+		public string[] characterFace { get { return _characterFace; } }
+
+
+
 
 
 	}

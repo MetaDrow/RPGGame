@@ -2,21 +2,29 @@
 
 
 
+
 namespace RPGGame
 {
+
 	internal class Program
 	{
-		static void Main (string[] args)
+		
+		static void Main ()
 		{
+			Render render = new Render();
 
-			//start program 
-			int x = 5; int y = 5;
-			Character player = new Character();
-			player.CheckCharacter(x,y);
+			Character character = new Character();
+			string[] player = character.characterFace;
 
+			Map map = new Map();
+			string[] lvl = map.LVL1;
 
+			render.Renderer(player);
+			render.Renderer(lvl);
 
 			Console.ReadLine();
 		}
+
+
 	}
 }
